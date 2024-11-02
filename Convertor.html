@@ -1,4 +1,5 @@
-<!DOCTYPE html>
+
+       <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -6,21 +7,23 @@
     <title>Temperature Converter</title>
     <link rel="stylesheet" href="Convertor.css">
 </head>
+
 <body>
+  
     <div class="converter">
         <h1>Temperature Converter</h1>
         
-        <label for="tempInput">Enter Temperature:</label>
+        <label for="tempInput">Enter Temperature to convert:</label>
         <input type="number" id="tempInput" placeholder="Enter value">
 
-        <label for="unitFrom">Convert from:</label>
+        <label for="unitFrom">Convert Temperature from:</label>
         <select id="unitFrom">
             <option value="Celsius">Celsius</option>
             <option value="Fahrenheit">Fahrenheit</option>
             <option value="Kelvin">Kelvin</option>
         </select>
 
-        <label for="unitTo">Convert to:</label>
+        <label for="unitTo">Convert Temperature to:</label>
         <select id="unitTo">
             <option value="Celsius">Celsius</option>
             <option value="Fahrenheit">Fahrenheit</option>
@@ -29,9 +32,10 @@
 
         <button onclick="convertTemperature()">Convert</button>
         
-        <p id="result">Result: </p>
+        <p id="result">Converted Temperature: </p>
     </div>
 
     <script src="Convertor.js"></script>
 </body>
+</style>
 </html>

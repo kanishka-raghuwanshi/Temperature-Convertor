@@ -9,9 +9,9 @@ body {
     height: 100vh;
     font-family: 'Times New Roman', Times, serif;
     margin: 0;
-    background: #4d607c;
     background-image: url('background.jpg');
-     background-size: cover; background-position: center; 
+     background-size: cover;
+       background-position: center; 
      background-repeat: no-repeat
 }
 
@@ -24,6 +24,7 @@ body {
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
     text-align: center;
+    color: #10011a;
 }
 
 h1 {
@@ -58,6 +59,6 @@ button:hover {
 
 #result {
     font-size: 18px;
-    color: #333;
+    color: #0e0909;
     margin-top: 10px;
 }

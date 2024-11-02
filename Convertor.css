@@ -7,13 +7,19 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    font-family: Arial, sans-serif;
+    font-family: 'Times New Roman', Times, serif;
     margin: 0;
-    background: #f0f2f5;
+    background: #4d607c;
+    background-image: url('background.jpg');
+     background-size: cover;
+    background-position: center; 
+     background-repeat: no-repeat
 }
 
+    
+
 .converter {
-    background-color: #fff;
+    background-color: #ebcfcf;
     padding: 20px;
     width: 300px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);

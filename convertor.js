@@ -1,4 +1,4 @@
-function convertTemperature() {
+ function convertTemperature() {
     const tempInput = parseFloat(document.getElementById('tempInput').value);
     const unitFrom = document.getElementById('unitFrom').value;
     const unitTo = document.getElementById('unitTo').value;
@@ -19,5 +19,5 @@ function convertTemperature() {
         result = unitTo === "Celsius" ? tempInput - 273.15 : (tempInput - 273.15) * 9/5 + 32;
     }
 
-    document.getElementById('result').innerText = `Result: ${result.toFixed(2)} °${unitTo[0]}`;
+    document.getElementById('result').innerText = `Converted Temperature: ${result.toFixed(2)} °${unitTo[0]}`;
 }

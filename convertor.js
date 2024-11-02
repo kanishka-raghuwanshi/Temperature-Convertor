@@ -5,7 +5,7 @@ function convertTemperature() {
     let result;
 
     if (isNaN(tempInput)) {
-        document.getElementById('result').innerText = "Please enter a valid number.";
+        document.getElementById('result').innerText = "Not a valid number Please enter valid number.";
         return;
     }
 
